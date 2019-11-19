@@ -3,5 +3,6 @@ services:
   tensorflow-for-lego:
     image: tensorflow/tensorflow:1.2.1
     container_name: tensorflow-for-lego
+    working_dir: /usr/src/app
     volumes:
-      - ./:/app
+      - ./:/usr/src/app

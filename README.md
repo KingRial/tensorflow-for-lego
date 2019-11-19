@@ -14,7 +14,6 @@ If you have any difficulty on building a correct Tensorflow environment, you can
 ```sh
 docker-compose up -d
 docker exec -it tensorflow-for-lego /bin/bash
-cd /app
 learn.sh
 python label_image.py evaluation-data/eval2x2.png
 exit
